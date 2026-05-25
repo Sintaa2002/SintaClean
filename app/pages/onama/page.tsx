@@ -23,7 +23,6 @@ export default function Onama() {
   return (
     <div className="relative bg-gray-50 text-gray-800 overflow-hidden">
 
-      {/* HERO BACKGROUND */}
       <div className="absolute top-0 left-0 w-full h-[500px] inset-0 bg-gradient-to-br from-blue-600 via-blue-500 to-cyan-400 opacity-95 rounded-b-[4rem] md:rounded-b-[15rem] z-0"></div>
 
       <header className="relative top-0 left-0 w-full z-20 p-4 pb-0">
@@ -41,7 +40,7 @@ export default function Onama() {
             </span>
           </h1>
           <p className="max-w-3xl mx-auto text-lg text-slate-200">
-            Vrhunska tehnologija, ekološka rješenja i precizan profesionalni
+            Vrhunska tehnologija, ekološka rješenja i profesionalni
             pristup za besprijekorno čist prostor.
           </p>
         </div>

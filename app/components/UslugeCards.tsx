@@ -8,10 +8,10 @@ const services = [
     title: "Dubinsko čišćenje namještaja, tepiha, madraca...",
     description:
       "Profesionalno dubinsko čišćenje kutnih garnitura, tepiha, madraca, auto-sjedala te svih tapiciranih površina uz korištenje visokokvalitetnih sredstava i moderne opreme. Uklanjamo tvrdokorne mrlje, neugodne mirise, grinje i alergene, vraćajući svježinu i higijenu vašem prostoru. Brza, pouzdana i detaljna usluga prilagođena vašim potrebama.",
-    image: "/photos/dub2.jpeg",
+    image: "/photos/dubinsko-ciscenje-namjestaja-zagreb-zapresic.webp",
     alt: "Dubinsko čišćenje tapeciranog namještaja Zagreb, Zaprešić, Samobor",
     icon: <FaCouch className="text-blue-500" />,
-    badges: ["Eco-friendly", "Premium"],
+    badges: ["Eco-friendly", "Kvalitetno"],
     gallery: [],
     video: ""
   },
@@ -19,10 +19,10 @@ const services = [
     title: "Održavanje zgrada",
     description:
       "Održavanje stubišta, rukohvata, prozora i zajedničkih prostora uključuje čišćenje svih površina, uklanjanje prašine i mrlja te redovitu dezinfekciju kontaktnih mjesta. Naš tim osigurava uredne, higijenski i sigurne zajedničke prostore prilagođene potrebama stanara i korisnika.",
-    image: "/photos/stubiste.jpg",
+    image: "/photos/ciscenje-stambenog-stubista-zagreb.webp",
     alt: "Održavanje i čišćenje stambenih stubišta i prostorija Zagreb, Zaprešić, Samobor",
     icon: <FaLeaf className="text-green-500" />,
-    badges: ["Sezonsko", "Brzo"],
+    badges: ["Periodično", "Profesionalno"],
     gallery: [],
     video: ""
   },
@@ -30,10 +30,10 @@ const services = [
     title: "Čišćenje i održavanje ureda",
     description:
       "Redovito čišćenje i održavanje uredskih prostora uključuje detaljno usisavanje i pranje podova, brisanje prašine s radnih površina, stolica, ormara i uredske opreme, čišćenje i dezinfekciju tipkovnica, telefona i drugih često korištenih predmeta, te higijensko održavanje kuhinjskih i sanitarnih prostora. Posebna pažnja posvećuje se dezinfekciji površina visokog kontakta kako bi se osigurala čista, uredna i sigurna radna sredina za sve zaposlenike.",
-    image: "/photos/office22.jpg",
+    image: "/photos/ciscenje-ureda-zapresic-zagreb.webp",
     alt: "Profesionalno čišćenje poslovnih ureda Zagreb, Zaprešić, Samobor",
     icon: <FaBroom className="text-yellow-500" />,
-    badges: ["Garancija", "Brza usluga"],
+    badges: ["Periodično", "Profesionalno"],
     gallery: [],
     video: ""
   },
@@ -41,7 +41,7 @@ const services = [
     title: "Održavanje zelenih površina",
     description:
       "Redovito održavanje travnjaka i okućnice uključuje košnju trave, orezivanje grmlja i živica, te uklanjanje lišća i otpada s površina. Posebna pažnja posvećuje se njegovanju biljaka, pravovremenom zalijevanju i prihrani tla, kako bi travnjaci i vrtne površine ostali zdravi i uredni tijekom cijele godine. Cjelokupna briga o okućnici osigurava estetski ugodan izgled, urednost i funkcionalnost svih zelenih površina, prilagođeno sezonskim potrebama i klimatskim uvjetima.",
-    image: "/photos/cutgras.webp",
+    image: "/photos/kosnja-trave-zagreb.webp",
     alt: "Održavanje zelenih površina, košnja trave, obrezivanje Zagreb, Zaprešić, Samobor",
     icon: <FaLeaf className="text-green-500" />,
     badges: ["Sezonsko", "Brzo"],
@@ -52,10 +52,10 @@ const services = [
     title: "Dubinsko čišćenje automobila",
     description:
       "Profesionalno dubinsko pranje sjedala, tapeciranih površina i svih vrsta podnih obloga u vozilu, uključujući detaljno uklanjanje prašine, mrlja i nečistoća iz teško dostupnih dijelova. Ovaj tretman osigurava dugotrajan osjećaj čistoće, svježinu u unutrašnjosti automobila. Posebna pažnja posvećuje se očuvanju materijala, pravilnoj dezinfekciji i korištenju kvalitetnih sredstava koja čuvaju boje i teksture unutrašnjosti.",
-    image: "/photos/seats.png",
+    image: "/photos/dubinsko-ciscenje-automobila.webp",
     alt: "Dubinkso i kemijsko čišćenje automobila Zagreb, Zaprešić, Samobor",
     icon: <FaBroom className="text-yellow-500" />,
-    badges: ["Garancija", "Brza usluga"],
+    badges: ["Temeljito", "Profesionalno"],
     gallery: [],
     video: ""
   },
@@ -63,10 +63,10 @@ const services = [
     title: "Čišćenje radijatora",
     description:
       "Profesionalno čišćenje radijatora uključuje uklanjanje prašine, prljavštine i neugodnih naslaga koje se nakupljaju između rešetki i unutar radijatora. Postupak se provodi pažljivo, često uz korištenje vruće pare i odgovarajućih sredstava, kako bi se osigurala učinkovita dezinfekcija i uklanjanje bakterija. Redovito čišćenje radijatora poboljšava cirkulaciju zraka, povećava učinkovitost grijanja i doprinosi zdravijem i higijenski čistom prostoru.",
-    image: "/photos/radijator11.jpeg",
+    image: "/photos/ciscenje-dezinfekcija-klime-radijatora.webp",
     alt: "Čišćenje i dezinfekcija radijatora Zagreb, Zaprešić, Samobor",
     icon: <FaCouch className="text-blue-500" />,
-    badges: ["Eco-friendly", "Premium"],
+    badges: ["Učinkovito", "Dezinfekcija"],
     gallery: [],
     video: ""
   }

@@ -94,6 +94,12 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${anton.variable} antialiased`}
       >

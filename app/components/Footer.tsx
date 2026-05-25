@@ -23,9 +23,7 @@ export default function Kontakti() {
         <div className="flex flex-col items-center justify-center">
           <h3 className="text-xl font-semibold mb-4 md:mr-10">Pratite nas</h3>
           <div className="flex space-x-6 text-2xl md:mr-10">
-            <a href="" target="_blank" className="hover:text-blue-500 transition"><FaFacebook /></a>
-            <a href="" target="_blank" className="hover:text-pink-500 transition"><FaInstagram /></a>
-            <a href="" target="_blank" className="hover:text-gray-400 transition"><FaTiktok /></a>
+            <a href="https://www.instagram.com/sintaclean.hr" target="_blank" className="hover:text-pink-500 transition"><FaInstagram /></a>
           </div>
         </div>
 
@@ -47,7 +45,7 @@ export default function Kontakti() {
 
       {/* Donji copyright */}
       <div className="mt-10 border-t border-gray-700 pt-4 text-center text-gray-400 text-sm">
-        © {new Date().getFullYear()} ŠINTA CLEAN — Sva prava pridržana. vl.Mateo Šintić
+        © {new Date().getFullYear()} ŠINTA CLEAN Sva prava pridržana. | vl.Mateo Šintić
       </div>
     </footer>
   );

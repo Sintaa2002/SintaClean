@@ -5,7 +5,7 @@ export function RezervacijaCiscenje(){
    return (
     <section className="relative w-full h-[500px] flex items-center justify-center text-center">
       <Image
-        src="/photos/hand7.jpeg"
+        src="/photos/dubsinko-ciscenje-zagreb.webp"
         alt="Profesionalno dubinsko čišćenje tapeciranog namještaja Zagreb, Zaprešić, Samobor"
         fill
         style={{ objectFit: "cover" }}
@@ -14,7 +14,7 @@ export function RezervacijaCiscenje(){
       />
 
       <Image
-        src="/photos/hand10.jpeg"
+        src="/photos/dubinsko-ciscenje-namjestaja.webp"
         alt="Profesionalno dubinsko čišćenje tapeciranog namještaja Zagreb, Zaprešić, Samobor"
         fill
         style={{ objectFit: "cover" }}
@@ -47,7 +47,7 @@ export function RezervacijaTrava(){
    return (
     <section className="relative w-full h-[500px] flex items-center justify-center text-center">
       <Image
-        src="/photos/trava3.jpg"
+        src="/photos/kosnja-trave-zapresic.webp"
         alt="Održavanje travnjaka i zelenih površina Zagreb, Zaprešić, Samobor"
         fill
         style={{ objectFit: "cover" }}
@@ -79,7 +79,7 @@ export function NajamAparata(){
    return (
     <section className="relative w-full h-[500px] flex items-center justify-center text-center">
        <Image
-        src="/photos/najam4.jpeg"
+        src="/photos/najam-aparata-ciscenje-zagreb.webp"
         alt="Najam aparata za čišćenje Zagreb, Zaprešić, Samobor"
         fill
         style={{ objectFit: "cover" }}
@@ -88,7 +88,7 @@ export function NajamAparata(){
       />
 
       <Image
-        src="/photos/najam4Mob.jpeg"
+        src="/photos/iznajmljivanje-aparata-ciscenje-zagreb.webp"
         alt="Najam aparata za čišćenje Zagreb, Zaprešić, Samobor"
         fill
         style={{ objectFit: "cover" }}

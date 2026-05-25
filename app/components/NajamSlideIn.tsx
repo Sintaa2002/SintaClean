@@ -3,7 +3,7 @@
 export default function NajamSlideIn()
 {
     return(
-        <section className="relative mx-auto pt-4 md:pt-8 px-4">
+        <section className="relative mx-auto pt-4 md:pt-8 px-20">
             <div className="container mx-auto animate-slideIn">
                 
                 {/* HERO CARD */}

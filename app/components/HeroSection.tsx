@@ -3,24 +3,21 @@ import Image from 'next/image';
 export function HeroPocetna() {
   return (
     <section className="relative w-full min-h-[80vh]">
-      {/* Pozadinska slika */}
+
       <Image
-        src="/photos/sabrinaa.png"
+        src="/photos/ciscenje-zagreb-zapresic-samobor.webp"
         alt="Servis za čišćenje u Zagrebu, Zaprešiću i Samoboru"
         fill
         style={{ objectFit: "cover" }}
         priority
       />
 
-      {/* Overlay */}
       <div className="absolute inset-0 bg-black/60"></div>
 
-      {/* Tekst */}
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white px-4">
         <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fadeIn">
           ŠINTA CLEAN
         </h1>
-        {/* Kvalitetne usluge i povjerenje mnogih klijenata */}
         <p className="text-lg md:text-xl max-w-2xl">
           Čistoća počinje s nama
         </p>
@@ -62,7 +59,7 @@ export function HeroUsluge(){
       <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
         {/* Background image */}
         <Image
-          src="/photos/slika1.jpg"
+          src="/photos/sintacelan-usluge-zagreb-zapresic-samobor.webp"
           alt="Čišćenje Zagreb, Zaprešić i Samobor"
           fill
           style={{ objectFit: "cover" }}

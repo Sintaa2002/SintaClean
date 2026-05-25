@@ -1,7 +1,7 @@
 
 export default function GalerijaSlideIn(){
     return(
-        <div className="relative container mx-auto px-15 pt-16 md:pt-28 z-10 animate-slideIn">
+        <div className="relative container mx-auto px-20 pt-16 md:pt-28 z-10 animate-slideIn">
               <div className="max-w-3xl">
                 
                 <span className="inline-block mb-4 px-4 py-1 text-sm font-semibold text-white/90 bg-white/10 backdrop-blur rounded-full">

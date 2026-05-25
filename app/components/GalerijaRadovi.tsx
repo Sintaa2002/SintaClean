@@ -6,33 +6,33 @@ export default function GalerijaRadovi() {
         <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <BeforeAfterSlider
-                before="/photos/audi22.jpeg"
-                after="/photos/audi11.jpeg"
+                before="/photos/dubinsko-ciscenje-autosjedala-prije.webp"
+                after="/photos/dubinsko-ciscenje-autosjedala-poslije.webp"
             />
 
             <BeforeAfterSlider
-                before="/photos/tepisson.jpeg"
-                after="/photos/tepison22.jpeg"
+                before="/photos/dubinsko-ciscenje-autotepih-prije-poslije.webp"
+                after="/photos/dubinsko-ciscenje-autotepiha-prije-poslije.webp"
             />
 
             <BeforeAfterSlider
-                before="/photos/gepek1.jpeg"
-                after="/photos/gepek2.jpeg"
+                before="/photos/dubinsko-gepek-podloga-prije.webp"
+                after="/photos/dubinsko-gepek-podloga-poslije.webp"
             />
 
             <BeforeAfterSlider
-                before="/photos/rad2.jpeg"
-                after="/photos/rad1.jpeg"
+                before="/photos/ciscenje-radijatora-zagreb.webp"
+                after="/photos/ciscenje-radijatora-zapresic.webp"
             />
 
             <BeforeAfterSlider
-                before="/photos/fuga1.jpeg"
-                after="/photos/fuga2.jpeg"
+                before="/photos/ciscenje-fuga-samobor.webp"
+                after="/photos/ciscenje-fuga-zagreb.webp"
             />
 
             <BeforeAfterSlider
-                before="/photos/clio.jpeg"
-                after="/photos/clioo.jpeg"
+                before="/photos/dubinsko-siceva-zagreb.webp"
+                after="/photos/dubinsko-siceva-zapresic.webp"
             />
             </div>
         </div>

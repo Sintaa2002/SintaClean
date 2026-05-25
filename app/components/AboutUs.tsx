@@ -3,41 +3,51 @@ import Image from "next/image";
 
 export function AboutUs(){
 return(      
-    <section className="relative z-10 -mt-28">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-16 bg-white/80 backdrop-blur-2xl p-12 rounded-[2.5rem] shadow-2xl border border-white/40">
+    <section className="relative z-10 -mt-12 md:-mt-28">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 md:mt-20">
+        <div className="grid md:grid-cols-2 gap-8 lg:gap-16 bg-white/80 backdrop-blur-2xl p-6 sm:p-8 md:p-12 rounded-2xl sm:rounded-[2.5rem] shadow-2xl border border-white/40">
 
-            {/* TEXT */}
-            <div>
-              <h2 className="text-3xl font-semibold text-slate-900 mb-6 flex items-center gap-3">
-                <Sparkles className="text-sky-500" />
-                Tko smo?
-              </h2>
-              <p className="text-lg mb-6 leading-relaxed text-slate-700">
-                Specijalizirani smo za profesionalno kemijsko i dubinsko
-                čišćenje svih tkaninastih površina te održavanje zelenih
-                prostora.
+          {/* Tekstualni sadržaj */}
+          <div className="flex flex-col justify-center">
+            <h2 className="text-2xl sm:text-3xl font-semibold text-slate-900 mb-4 sm:mb-6 flex items-center gap-3">
+              <Sparkles className="text-sky-500 shrink-0" />
+              Tko smo mi?
+            </h2>
+            
+            <div className="space-y-4 text-base sm:text-lg leading-relaxed text-slate-700">
+              <p>
+                Mi smo tim koji vjeruje da prostor u kojem boravite, bilo da je to vaš kauč, ured u kojem radite ili stubište zgrade kroz koje 
+                prolazite svaki dan, zaslužuje vrhunsku čistoću. Specijalizirani smo za <strong>dubinsko čišćenje 
+                namještaja i tkanina</strong> te redovito <strong>održavanje ureda i stambenih zgrada</strong>. Uz sve to, 
+                rado ćemo se pobrinuti i za zelene kutke oko vašeg objekta.
               </p>
-              <p className="text-lg leading-relaxed text-slate-700">
-                Koristimo ekološki prihvatljiva sredstva i napredne metode
-                uklanjanja mrlja, alergena i neugodnih mirisa za dugotrajan
-                rezultat.
+              <p>
+                Znamo koliko je teško boriti se s tvrdokornim mrljama, alergenima ili pronaći pouzdanu agenciju 
+                koja će stubište zgrade i urede održavati točno onako kako ste zamislili. Zato mi dolazimo s najmodernijim strojevima 
+                i ekološkim sredstvima koja su potpuno sigurna za djecu i kućne ljubimce, ali neumoljiva prema prljavštini.
               </p>
-            </div>
-
-            {/* IMAGE */}
-            <div className="relative rounded-3xl overflow-hidden shadow-xl">
-              <Image
-                src="/photos/cleaningTeam.jpg"
-                alt="Profesionalno čišćenje"
-                width={600}
-                height={400}
-                className="object-cover h-full w-full scale-105"
-              />
+              <p className="font-medium text-slate-900">
+                Naš cilj nije samo površno očistiti prostor, već mu vratiti onu pravu, ugodnu svježinu koju možete 
+                osjetiti čim zakoračite kroz vrata. Pedantni smo, držimo se dogovora i tu smo da vam olakšamo svakodnevicu na području Zagreba.
+              </p>
             </div>
           </div>
+
+          {/* Kontejner za sliku/logo */}
+          <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-xl min-h-[250px] sm:min-h-[350px] md:min-h-full aspect-video md:aspect-auto">
+            <Image
+              src="/photos/sintaclean-ciscenje-zagreb.webp"
+              alt="Profesionalno čišćenje Zagreb, Zaprešić, Samobor"
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="object-cover scale-105"
+              priority
+            />
+          </div>
+
         </div>
-    </section>
+      </div>
+</section>
     );
 }
 
@@ -46,9 +56,9 @@ export function Stats(){
         <section className="py-20">
             <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-8 text-center">
             {[
-                { icon: ShieldCheck, title: "100%", desc: "Pouzdanost" },
-                { icon: Leaf, title: "Eco", desc: "Prihvatljiva sredstva" },
-                { icon: Sparkles, title: "500+", desc: "Zadovoljnih klijenata" },
+                { icon: ShieldCheck, title: "100%", desc: "Sigurnost i pouzdanost" },
+                { icon: Leaf, title: "Eko", desc: "Sigurno za djecu i ljubimce" },
+                { icon: Sparkles, title: "Bez mrlja", desc: "I dugotrajna svježina" },
             ].map(({ icon: Icon, title, desc }) => (
                 <div
                 key={title}

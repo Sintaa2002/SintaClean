@@ -28,7 +28,7 @@ export default function NavBar({ bgColor = "bg-transparent", iconColor= "dfsd"}:
   return (
     <nav className={`${bgColor} shadow-md w-full mx-auto text-white`}>
         <div className="flex justify-between items-center p-4 ">
-              <a href="/"><img src="/photos/logo_png.png" alt="ŠINTA CLEAN Logo" className="h-16 w-auto" /></a>
+              <a href="/"><img src="/photos/sintaclean-servis-za-ciscenje-zagreb.webp" alt="Šinta Clean - servis za čišćenje i održavanje, Zagreb, Zaprešić i Samobor" className="h-16 w-auto" /></a>
 
             <div className="hidden md:flex flex-row items-end text-sm text-gray-700 gap-15">
                 <div className="flex items-center text-gray-700">
@@ -107,8 +107,8 @@ export default function NavBar({ bgColor = "bg-transparent", iconColor= "dfsd"}:
       {/* logo */}
       <a href="/">
         <img
-          src="/photos/logo_png.png"
-          alt="ŠINTA CLEAN Logo"
+          src="/photos/sintaclean-servis-za-ciscenje-zagreb.webp"
+          alt="ŠINTA CLEAN- servis za čišćenje i održavanje, Zagreb, Zaprešić i Samobor"
           className="relative h-16 w-auto"
         />
       </a>

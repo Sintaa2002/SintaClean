@@ -6,7 +6,7 @@ import Image from "next/image";
       id: 1,
       title: "Dubinski usisavač Sabrina",
       details: "za čišćenje tkaninastih površina(uz sredstvo za čišćenje), jedan od najsnažnijih aparata na tržištu - snaga 1500W, usisna snaga 300 mbar",
-      image: "/photos/sabrina2.png",
+      image: "/photos/najam-aparata-dubinsko-zagreb.webp",
       alt: "Aparat za dubinsko čišćenje za najam u Zagrebu, Zaprešiću i Samoboru",
       prices: [
         { days: 1, price: 40 },
@@ -18,7 +18,7 @@ import Image from "next/image";
       id: 4,
       title: "Parni čistač - Karcher sc3 Deluxe",
       details: "čišćenje vrućom vodenom parom koja uklanja tvrdokornu prljavštinu, maksimalni tlak pare 3,5 bara, vrijeme zagrijavanja vode 30 sekundi",
-      image: "/photos/parni.png",
+      image: "/photos/najam-parni-cistac-karcher-zagreb.webp",
       alt: "Aparat za parno čišćenje za najam u Zagrebu, Zaprešiću i Samoboru",
       prices: [
         { days: 1, price: 30 },
@@ -30,7 +30,7 @@ import Image from "next/image";
       id: 3,
       title: "Šamponirka - Wirbel C43",
       details: "idealna je za temeljito pranje tvrdih podova, dubinsko šamponiranje tepiha i poliranje površina. Snažna, stabilna i jednostavna za rukovanje",
-      image: "/photos/cistac.png",
+      image: "/photos/najam-samponirka-zagreb.webp",
       alt: "",
       prices: [
         { days: 1, price: 60 },
@@ -42,7 +42,7 @@ import Image from "next/image";
       id: 4,
       title: "Čistač podova - CleanFix Ra 431e",
       details: "industrijski uređaj za pranje podova, ima rotirajuću četku širine 43cm s pritiskom od oko 34 kg što pridonosi uklanjanju tvrdokorne prljavštine",
-      image: "/photos/cistacPoda.webp",
+      image: "/photos/iznajmljivanje-aparata-za-pranje-podova-zagreb.webp",
       alt: "",
       prices: [
         { days: 1, price: 85 },
@@ -54,7 +54,7 @@ import Image from "next/image";
       id: 4,
       title: "Mokro/suhi usisavač",
       details: "profesionalni usisavač ukupne snage 2600W s inox rezervoarom od 62 litre, obavlja mokro usisavanje tekućina ili krupno/sitnog otpada",
-      image: "/photos/usisavac.png",
+      image: "/photos/najam-strojeva-ciscenje-zagreb.webp",
       alt: "",
       prices: [
         { days: 1, price: 35 },
@@ -66,7 +66,7 @@ import Image from "next/image";
       id: 2,
       title: "Aku bušilica",
       details: "savršen dodatak za detaljno dubinsko čišćenje doma ili automobila. Set uključuje bušilicu sa četkama različitih oblika koje olakšavaju ribanje tkanine, sjedala...",
-      image: "/photos/aparat2.jpg",
+      image: "/photos/iznajmljivanje-aparata-za-podove-zagreb.webp",
       alt: "",
       prices: [
         { days: 1, price: 10 },

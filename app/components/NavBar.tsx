@@ -28,7 +28,7 @@ export default function NavBar({ bgColor = "bg-transparent", iconColor= "dfsd"}:
   return (
     <nav className={`${bgColor} shadow-md w-full mx-auto text-white`}>
         <div className="flex justify-between items-center p-4 ">
-              <a href="/"><img src="/photos/sintaclean-servis-za-ciscenje-zagreb.webp" alt="Šinta Clean - servis za čišćenje i održavanje, Zagreb, Zaprešić i Samobor" className="h-16 w-auto" /></a>
+              <Link  href="/"><img src="/photos/sintaclean-servis-za-ciscenje-zagreb.webp" alt="Šinta Clean - servis za čišćenje i održavanje, Zagreb, Zaprešić i Samobor" className="h-16 w-auto" /></Link>
 
             <div className="hidden md:flex flex-row items-end text-sm text-gray-700 gap-15">
                 <div className="flex items-center text-gray-700">
@@ -105,13 +105,13 @@ export default function NavBar({ bgColor = "bg-transparent", iconColor= "dfsd"}:
       <div className="absolute w-36 h-12 bg-black/90 blur-2xl rounded-[60%_50%_50%_60%] -rotate-6"></div>
 
       {/* logo */}
-      <a href="/">
+      <Link href="/">
         <img
           src="/photos/sintaclean-servis-za-ciscenje-zagreb.webp"
           alt="ŠINTA CLEAN- servis za čišćenje i održavanje, Zagreb, Zaprešić i Samobor"
           className="relative h-16 w-auto"
         />
-      </a>
+      </Link >
     </div>
 
         <button
@@ -148,21 +148,21 @@ export default function NavBar({ bgColor = "bg-transparent", iconColor= "dfsd"}:
       <div className="mt-auto border-t pt-4 text-sm text-slate-600 space-y-1">
         <p>
           Email:{" "}
-          <a
+          <Link 
             href="mailto:sintic.usluge@gmail.com"
             className="hover:underline"
           >
             sintic.usluge@gmail.com
-          </a>
+          </Link>
         </p>
         <p>
           Tel:{" "}
-          <a
+          <Link 
             href="tel:+385957407610"
             className="hover:underline"
           >
             095 740 7610
-          </a>
+          </Link>
         </p>
       </div>
     </div>

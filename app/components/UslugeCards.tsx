@@ -3,7 +3,19 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { FaCouch, FaLeaf, FaBroom} from "react-icons/fa";
 
-const services = [
+
+type Service = {
+  title: string;
+  description: string;
+  image: string;
+  alt: string;
+  icon: React.ReactElement;
+  badges: string[];
+  gallery: string[];
+  video: string;
+};
+
+const services: Service[] = [
   {
     title: "Dubinsko čišćenje namještaja, tepiha, madraca...",
     description:
@@ -73,7 +85,7 @@ const services = [
 ];
 
 export default function UslugeCards(){
-    const [selectedService, setSelectedService] = useState<any>(null);
+    const [selectedService, setSelectedService] = useState<Service | null>(null);
 
     useEffect(() => {
       document.body.classList.toggle("overflow-hidden", !!selectedService);

@@ -1,4 +1,5 @@
-import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
+import Link from "next/link";
+import { FaInstagram } from "react-icons/fa";
 import { IoCall, IoMail } from "react-icons/io5";
 
 export default function Kontakti() {
@@ -10,12 +11,12 @@ export default function Kontakti() {
         <div>
           <h3 className="text-xl font-semibold mb-4">Izbornik</h3>
           <ul className="space-y-2">
-            <li><a href="/" className="hover:text-blue-400 transition">Početna</a></li>
-            <li><a href="/pages/usluge" className="hover:text-blue-400 transition">Usluge</a></li>
-            <li><a href="/pages/kontakt" className="hover:text-blue-400 transition">Kontakt</a></li>
-            <li><a href="/pages/najam" className="hover:text-blue-400 transition">Najam</a></li>
-            <li><a href="/pages/galerija" className="hover:text-blue-400 transition">Galerija</a></li>
-            <li><a href="/pages/onama" className="hover:text-blue-400 transition">O nama</a></li>
+            <li><Link href="/" className="hover:text-blue-400 transition">Početna</Link></li>
+            <li><Link href="/pages/usluge" className="hover:text-blue-400 transition">Usluge</Link></li>
+            <li><Link href="/pages/kontakt" className="hover:text-blue-400 transition">Kontakt</Link></li>
+            <li><Link href="/pages/najam" className="hover:text-blue-400 transition">Najam</Link></li>
+            <li><Link href="/pages/galerija" className="hover:text-blue-400 transition">Galerija</Link></li>
+            <li><Link href="/pages/onama" className="hover:text-blue-400 transition">O nama</Link></li>
           </ul>
         </div>
 
@@ -23,7 +24,7 @@ export default function Kontakti() {
         <div className="flex flex-col items-center justify-center">
           <h3 className="text-xl font-semibold mb-4 md:mr-10">Pratite nas</h3>
           <div className="flex space-x-6 text-2xl md:mr-10">
-            <a href="https://www.instagram.com/sintaclean.hr" target="_blank" className="hover:text-pink-500 transition"><FaInstagram /></a>
+            <Link  href="https://www.instagram.com/sintaclean.hr" target="_blank" className="hover:text-pink-500 transition"><FaInstagram /></Link>
           </div>
         </div>
 

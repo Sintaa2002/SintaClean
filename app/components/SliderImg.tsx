@@ -1,6 +1,6 @@
 "use client";
-
-import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
+import { useRef, useState } from "react";
 
 export default function BeforeAfterSlider({
   before,
@@ -41,20 +41,19 @@ export default function BeforeAfterSlider({
       onMouseMove={(e) => e.buttons === 1 && handleMove(e)}
       onTouchMove={handleMove}
     >
-      {/* AFTER image (background) */}
-      <img src={after} className="absolute inset-0 w-full h-full object-cover" />
 
-      {/* BEFORE image (clipped) */}
-      <img
+      <Image src={after} className="absolute inset-0 w-full h-full object-cover" alt={"Servis za čišćenje Zagreb, rezultati prije - poslije"} fill  />
+
+      <Image
         src={before}
         className="absolute inset-0 w-full h-full object-cover"
         style={{
             clipPath: `inset(0 ${100 - position}% 0 0)`,
         }}
-        alt="Prije"
+        alt="Servis za čišćenje Zaprešić - Samobor, rezultati prije - poslije"
+        fill 
         />
 
-      {/* Slider line */}
       <div
         className="absolute top-0 bottom-0 w-[2px] bg-white z-10"
         style={{ left: `${position}%` }}

@@ -45,6 +45,7 @@ export default function ContactForm() {
       setSubmitted(true);
       setFormData({ fullName: "", phone: "", email: "", message: "",  date: "" });
     } catch (error) {
+      console.error(error);
       alert("Došlo je do greške. Pokušajte ponovo.");
     }
   };
@@ -52,7 +53,6 @@ export default function ContactForm() {
   return (
     <div className="w-full max-w-6xl p-3 mb-8 md:mb-0 md:p-0 pt-17 md:pt-10 z-1">
       <h2 className="text-3xl font-semibold mb-6 text-gray-800">Kontaktirajte nas</h2>
-
 
       <form
         onSubmit={handleSubmit}

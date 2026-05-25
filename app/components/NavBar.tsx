@@ -5,6 +5,7 @@ import Link from "next/link";
 import { IoIosMail } from "react-icons/io";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 interface NavBarProps {
   bgColor?: string; // opcionalno, default je transparent
@@ -28,7 +29,7 @@ export default function NavBar({ bgColor = "bg-transparent", iconColor= "dfsd"}:
   return (
     <nav className={`${bgColor} shadow-md w-full mx-auto text-white`}>
         <div className="flex justify-between items-center p-4 ">
-              <Link  href="/"><img src="/photos/sintaclean-servis-za-ciscenje-zagreb.webp" alt="Šinta Clean - servis za čišćenje i održavanje, Zagreb, Zaprešić i Samobor" className="h-16 w-auto" /></Link>
+              <Link  href="/"><Image src="/photos/sintaclean-servis-za-ciscenje-zagreb.webp" alt="Šinta Clean - servis za čišćenje i održavanje, Zagreb, Zaprešić i Samobor" width={135} height={55}/></Link>
 
             <div className="hidden md:flex flex-row items-end text-sm text-gray-700 gap-15">
                 <div className="flex items-center text-gray-700">
@@ -106,10 +107,11 @@ export default function NavBar({ bgColor = "bg-transparent", iconColor= "dfsd"}:
 
       {/* logo */}
       <Link href="/">
-        <img
+        <Image
           src="/photos/sintaclean-servis-za-ciscenje-zagreb.webp"
           alt="ŠINTA CLEAN- servis za čišćenje i održavanje, Zagreb, Zaprešić i Samobor"
           className="relative h-16 w-auto"
+          width={135} height={55}
         />
       </Link >
     </div>

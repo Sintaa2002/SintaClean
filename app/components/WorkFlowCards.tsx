@@ -78,9 +78,9 @@ export function WhyUs(){
                     title: "Pouzdan tim",
                     desc: "Iskusan i profesionalan tim s fokusom na kvalitetu."
                     }
-                ].map((item, idx) => (
+                ].map((item) => (
                     <div
-                    key={idx}
+                    key={item.title}
                     className="group bg-white/80 backdrop-blur-xl rounded-3xl p-8 text-center shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
                     >
                     <div className="mx-auto mb-5 w-14 h-14 flex items-center justify-center rounded-full bg-gray-100 text-2xl transition group-hover:scale-110">

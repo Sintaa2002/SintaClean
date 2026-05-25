@@ -15,7 +15,7 @@ import Image from "next/image";
       ]
     },
         {
-      id: 4,
+      id: 2,
       title: "Parni čistač - Karcher sc3 Deluxe",
       details: "čišćenje vrućom vodenom parom koja uklanja tvrdokornu prljavštinu, maksimalni tlak pare 3,5 bara, vrijeme zagrijavanja vode 30 sekundi",
       image: "/photos/najam-parni-cistac-karcher-zagreb.webp",
@@ -51,7 +51,7 @@ import Image from "next/image";
       ],
     },
     {
-      id: 4,
+      id: 5,
       title: "Mokro/suhi usisavač",
       details: "profesionalni usisavač ukupne snage 2600W s inox rezervoarom od 62 litre, obavlja mokro usisavanje tekućina ili krupno/sitnog otpada",
       image: "/photos/najam-strojeva-ciscenje-zagreb.webp",
@@ -63,7 +63,7 @@ import Image from "next/image";
       ],
     },
     {
-      id: 2,
+      id: 6,
       title: "Aku bušilica",
       details: "savršen dodatak za detaljno dubinsko čišćenje doma ili automobila. Set uključuje bušilicu sa četkama različitih oblika koje olakšavaju ribanje tkanine, sjedala...",
       image: "/photos/iznajmljivanje-aparata-za-podove-zagreb.webp",
@@ -84,9 +84,9 @@ export function NajamAparati() {
         <div className="max-w-7xl mx-auto">
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {aparati.map((service, idx) => (
+            {aparati.map((service) => (
               <Link
-                key={idx}
+                key={service.id}
                 href="/pages/kontakt"
                 className="group relative border border-blue-200 bg-white rounded-3xl overflow-hidden shadow-md transition-all duration-300 hover:shadow-2xl hover:-translate-y-2
                           active:shadow-2xl active:-translate-y-2"

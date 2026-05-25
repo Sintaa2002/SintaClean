@@ -104,9 +104,9 @@ export default function UslugeCards(){
             </h2>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              {services.map((service, idx) => (
+              {services.map((service) => (
                 <div
-                  key={idx}
+                  key={service.title}
                   onClick={() => setSelectedService(service)}
                   className="cursor-pointer group relative rounded-[28px] bg-white overflow-hidden
                             shadow-[0_20px_40px_-15px_rgba(0,0,0,0.15)]

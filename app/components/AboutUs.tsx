@@ -34,14 +34,14 @@ return(
           </div>
 
           {/* Kontejner za sliku/logo */}
-          <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-xl min-h-[250px] sm:min-h-[350px] md:min-h-full aspect-video md:aspect-auto">
+          <div className="relative w-full rounded-2xl sm:rounded-3xl overflow-hidden shadow-xl min-h-[250px] sm:min-h-[350px] md:min-h-[450px] aspect-video md:aspect-square">
             <Image
               src="/photos/sintaclean-ciscenje-zagreb.webp"
               alt="Profesionalno čišćenje Zagreb, Zaprešić, Samobor"
               fill
-              sizes="(max-width: 768px) 100vw, 50vw"
-              className="object-cover scale-105"
+              className="object-cover rounded-2xl sm:rounded-3xl"
               priority
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           </div>
 

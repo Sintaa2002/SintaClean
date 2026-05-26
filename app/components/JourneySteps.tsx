@@ -10,7 +10,7 @@ export default function JourneySteps() {
     { id:1, text: "Dogovor", delay: 0.3 },
     { id:2, text: "Čišćenje", delay: 0.6 },
   ];
-  const icons = [<Phone />, <CalendarPlus2 />, <BrushCleaning />];
+  const icons = [<Phone  key="phone" />, <CalendarPlus2  key="calendar" />, <BrushCleaning  key="brush" />];
  return (
     <div className="relative flex flex-col items-center justify-start py-8 space-y-10">
       {/* Animirana linija u pozadini */}

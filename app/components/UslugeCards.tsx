@@ -242,7 +242,6 @@ export default function UslugeCards(){
                   ))}
                 </div>
 
-                {/* GALLERY */}
                 {selectedService.gallery && (
                   <div className="grid grid-cols-2 gap-3 pt-2">
                     {selectedService.gallery.map((img: string, i: number) => (

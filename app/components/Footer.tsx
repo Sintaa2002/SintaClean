@@ -38,7 +38,7 @@ export default function Kontakti() {
             </div>
             <div className="flex items-center space-x-3">
               <IoMail className="text-blue-400 text-2xl" />
-              <span>sintic.usluge@gmail.com</span>
+              <span>sintacleanhr@gmail.com</span>
             </div>
           </div>
         </div>

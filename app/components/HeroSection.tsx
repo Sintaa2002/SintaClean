@@ -63,6 +63,16 @@ export function HeroUsluge(){
           alt="Čišćenje Zagreb, Zaprešić i Samobor"
           fill
           style={{ objectFit: "cover" }}
+          className="hidden md:block object-cover"
+          priority
+        />
+
+        <Image
+          src="/photos/sintacelan-usluge-zagreb-zapresic-samobor-mob.webp"
+          alt="Čišćenje Zagreb, Zaprešić i Samobor"
+          fill
+          style={{ objectFit: "cover" }}
+          className="block md:hidden object-cover"
           priority
         />
 

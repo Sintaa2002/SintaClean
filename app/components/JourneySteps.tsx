@@ -6,9 +6,9 @@ import { Phone } from "lucide-react";
 
 export default function JourneySteps() {
   const steps = [
-    { text: "Poziv", delay: 0 },
-    { text: "Dogovor", delay: 0.3 },
-    { text: "Čišćenje", delay: 0.6 },
+    { id:0, text: "Poziv", delay: 0 },
+    { id:1, text: "Dogovor", delay: 0.3 },
+    { id:2, text: "Čišćenje", delay: 0.6 },
   ];
   const icons = [<Phone />, <CalendarPlus2 />, <BrushCleaning />];
  return (
@@ -16,10 +16,9 @@ export default function JourneySteps() {
       {/* Animirana linija u pozadini */}
       <div className="absolute top-0 bottom-0 w-[2px] bg-gradient-to-b from-amber-400 via-orange-500 to-rose-400 opacity-75 z-0" />{/*from-cyan-400 via-blue-400 to-transparent opacity-60*/}
 
-      {steps.map((step, index) => (
-      <div key={index} className="relative z-10 flex flex-col items-center">
+      {steps.map((step) => (
+      <div key={step.id} className="relative z-10 flex flex-col items-center">
         <motion.div
-          key={index}
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: step.delay, duration: 0.8, type: "spring" }}
@@ -40,11 +39,11 @@ export default function JourneySteps() {
               }}
             >
               <span className="text-black-300">{step.text}</span>
-               {React.cloneElement(icons[index], { className: "w-6 h-6 text-black", })}
+               {React.cloneElement(icons[step.id], { className: "w-6 h-6 text-black", })}
             </motion.div>
 
           {/* Točkice i strelica */}
-          {index < steps.length - 1 && (
+          {step.id < steps.length - 1 && (
             <div className="flex flex-col items-center mt-3 space-y-1 z-10">
               <motion.div
                 animate={{ opacity: [0.3, 1, 0.3] }}
@@ -77,11 +76,11 @@ export default function JourneySteps() {
             </div>
           )}
 
-          {index === steps.length - 1 && (
+          {step.id === steps.length - 1 && (
             <div className="h-16 w-[2px] bg-gradient-to-b from-amber-400 via-orange-500 to-rose-400 opacity-75 z-0"></div>
           )}
            {/* Finish zastavica */}
-            {index === steps.length - 1 && (
+            {step.id === steps.length - 1 && (
               <motion.div
                 className="mt-6 text-3xl"
                 animate={{ rotate: [0, 15, -15, 0] }}

@@ -8,6 +8,7 @@ export function HeroPocetna() {
         src="/photos/ciscenje-zagreb-zapresic-samobor.webp"
         alt="Servis za čišćenje u Zagrebu, Zaprešiću i Samoboru"
         fill
+        sizes="100vw"
         style={{ objectFit: "cover" }}
         priority
       />
@@ -62,6 +63,7 @@ export function HeroUsluge(){
           src="/photos/sintacelan-usluge-zagreb-zapresic-samobor.webp"
           alt="Čišćenje Zagreb, Zaprešić i Samobor"
           fill
+          sizes="100vw"
           style={{ objectFit: "cover" }}
           className="hidden md:block object-cover"
           priority

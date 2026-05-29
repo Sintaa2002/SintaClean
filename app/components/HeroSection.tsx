@@ -11,6 +11,7 @@ export function HeroPocetna() {
         sizes="100vw"
         style={{ objectFit: "cover" }}
         priority
+        fetchPriority="high"
       />
 
       <div className="absolute inset-0 bg-black/60"></div>
@@ -67,6 +68,7 @@ export function HeroUsluge(){
           style={{ objectFit: "cover" }}
           className="hidden md:block object-cover"
           priority
+          fetchPriority="high"
         />
 
         <Image

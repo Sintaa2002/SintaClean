@@ -29,7 +29,7 @@ export default function NavBar({ bgColor = "bg-transparent", iconColor= "dfsd"}:
   return (
     <nav className={`${bgColor} shadow-md w-full mx-auto text-white`}>
         <div className="flex justify-between items-center p-4 ">
-              <Link  href="/"><Image src="/photos/sintaclean-servis-za-ciscenje-zagreb.webp" alt="Šinta Clean - servis za čišćenje i održavanje, Zagreb, Zaprešić i Samobor" width={135} height={55}/></Link>
+              <Link  href="/"  aria-label="Logo Šinta Clean"><Image src="/photos/sintaclean-servis-za-ciscenje-zagreb.webp" alt="Šinta Clean - servis za čišćenje i održavanje, Zagreb, Zaprešić i Samobor" width={135} height={55}/></Link>
 
             <div className="hidden md:flex flex-row items-end text-sm text-gray-700 gap-15">
                 <div className="flex items-center text-gray-700">

@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     siteName: 'Šinta Clean',
     images: [
       {
-        url: 'https://sintaclean.hr/sintaclean-ciscenje-zagreb.webp',
+        url: 'https://sintaclean.hr/photos/sintaclean-ciscenje-zagreb.webp',
         width: 1200,
         height: 630,
       },

@@ -58,11 +58,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Dubinsko čišćenje namještaja, održavanje ureda, stubišta zgrada u Zagreb, Zaprešić, Samobor, Zagrebačka županija',
     description: 'Nudimo dubinsko čišćenje tkaninastog namještaja, automobila, madraca. Održavamo stubišta zgrada i zajedničkih prostorija. Održavamo zelene površine, kosimo travu, te režemo živicu.',
-    url: 'https://mojastranica.com',
+    url: 'https://sintaclean.hr',
     siteName: 'Šinta Clean',
     images: [
       {
-        url: 'https://mojastranica.com/og-image.png',
+        url: 'https://sintaclean.hr/sintaclean-ciscenje-zagreb.webp',
         width: 1200,
         height: 630,
       },
@@ -79,13 +79,13 @@ export default function RootLayout({
 }>) {
 
   const schema = {
-    "@context": "https://schema.org",
-    "@type": "CleaningService",
+    "@context": "https://sintaclean.hr",
+    "@type": "Servis za čišćenje",
     name: "Čišćenje Zagreb",
     description: "Profesionalne usluge dubinskog čišćenja i održavanja poslovnih prostora u Zagrebu i Zagrebačkoj županiji",
     areaServed: ["Zagreb", "Samobor", "Zaprešić", "Zagrebačka županija"],
     address: {
-      "@type": "PostalAddress",
+      "@type": "Kupljenska 79",
       addressLocality: "Zaprešić",
       addressCountry: "HR"
     },

@@ -48,7 +48,7 @@ export default function ContactInfo() {
           <div className="flex flex-col col-span-1 md:col-span-1 items-center space-y-2">
             <Mail className="w-7 h-7 text-white" />
             <h3 className="hidden md:block text-small md:text-lg font-semibold">Email</h3>
-            <p>sintic.usluge@gmail.com</p>
+            <p>info@sintaclean.hr</p>
           </div>
           </motion.div>
 

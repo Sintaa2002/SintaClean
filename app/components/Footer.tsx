@@ -24,7 +24,7 @@ export default function Kontakti() {
         <div className="flex flex-col items-center justify-center">
           <h3 className="text-xl font-semibold mb-4 md:mr-10">Pratite nas</h3>
           <div className="flex space-x-6 text-2xl md:mr-10">
-            <Link  href="https://www.instagram.com/sintaclean.hr" target="_blank" aria-label="Instagram profil Šinta Clean" className="hover:text-pink-500 transition"><FaInstagram /></Link>
+            <Link  href="https://www.instagram.com/sinta.clean" target="_blank" aria-label="Instagram profil Šinta Clean" className="hover:text-pink-500 transition"><FaInstagram /></Link>
           </div>
         </div>
 
@@ -38,7 +38,7 @@ export default function Kontakti() {
             </div>
             <div className="flex items-center space-x-3">
               <IoMail className="text-blue-400 text-2xl" />
-              <span>sintacleanhr@gmail.com</span>
+              <span>info@sintaclean.hr</span>
             </div>
           </div>
         </div>

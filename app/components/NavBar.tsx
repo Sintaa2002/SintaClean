@@ -45,7 +45,7 @@ export default function NavBar({ bgColor = "bg-transparent", iconColor= "dfsd"}:
                     <IoIosMail size={40} className={`text-${iconColor} mr-3`} />
                     <div className="flex flex-col justify-center text-white">
                         <span className="text-sm font-medium">Pošaljite mail</span>
-                        <span className="text-base font-semibold text-l">sintacleanhr@gmail.com</span>
+                        <span className="text-base font-semibold text-l">info@sintaclean.hr</span>
                     </div>
                 </div>
             </div>
@@ -151,10 +151,10 @@ export default function NavBar({ bgColor = "bg-transparent", iconColor= "dfsd"}:
         <p>
           Email:{" "}
           <Link 
-            href="mailto:sintic.usluge@gmail.com"
+            href="mailto:info@sintaclean.hr"
             className="hover:underline"
           >
-            sintacleanhr@gmail.com
+            info@sintaclean.hr
           </Link>
         </p>
         <p>

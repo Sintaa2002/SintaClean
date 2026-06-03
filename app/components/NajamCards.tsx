@@ -87,7 +87,7 @@ export function NajamAparati() {
             {aparati.map((service) => (
               <Link
                 key={service.id}
-                href="/pages/kontakt"
+                href="/kontakt"
                 className="group relative border border-blue-200 bg-white rounded-3xl overflow-hidden shadow-md transition-all duration-300 hover:shadow-2xl hover:-translate-y-2
                           active:shadow-2xl active:-translate-y-2"
               >

@@ -36,7 +36,7 @@ export default function NajamSlideIn()
                     </button>
 
                 <a
-                    href="/pages/kontakt"
+                    href="/kontakt"
                     className="inline-block px-6 py-3 rounded-full border border-white/40 text-white hover:bg-white/10 transition"
                 >
                     Kontaktiraj nas

@@ -23,7 +23,7 @@ export function HeroPocetna() {
         <p className="text-lg md:text-xl max-w-2xl">
           Čistoća počinje s nama
         </p>
-        <a href="pages/usluge" className="bg-gradient-to-br from-blue-600 to-transparent active:from-transparent active:to-blue-500 hover:from-transparent hover:to-blue-600 transition-all duration-300 ease-in-out 
+        <a href="/usluge" className="bg-gradient-to-br from-blue-600 to-transparent active:from-transparent active:to-blue-500 hover:from-transparent hover:to-blue-600 transition-all duration-300 ease-in-out 
                                 text-white font-semibold mt-10 py-3 px-8 rounded-lg shadow-md transform hover:-translate-y-1 hover:shadow-lg">
           Usluge
         </a>
@@ -45,7 +45,7 @@ export function HeroPocetna() {
        <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 mb-6 " style={{ animationDuration: '1s' }}>
         Kontaktirajte nas odmah i saznajte više!
       </h2>
-        <a href="pages/kontakt" className="bg-blue-500 hover:bg-blue-400 text-white font-semibold py-3 px-8 rounded-lg shadow-md transition 
+        <a href="/kontakt" className="bg-blue-500 hover:bg-blue-400 text-white font-semibold py-3 px-8 rounded-lg shadow-md transition 
                 transform hover:-translate-y-1 hover:shadow-lg active:shadow-xl">
           Kontaktirajte nas
         </a>
@@ -95,7 +95,7 @@ export function HeroUsluge(){
             Pouzdano čišćenje i održavanje prostora uz kvalitetnu i brzu uslugu.
           </p>
           <a
-            href="/pages/kontakt"
+            href="/kontakt"
             className="inline-block mt-6 px-8 py-4 bg-blue-500 text-white rounded-full font-semibold hover:scale-105 transition hover:shadow-lg active:shadow-xl  
                       active:scale-105 active:shadow-xl"
           >

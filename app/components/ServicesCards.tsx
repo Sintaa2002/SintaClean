@@ -39,7 +39,7 @@ export default function Usluge() {
             <p>
               Redovito čišćenje i održavanje stubišta u stambenim zgradama. Pranje podova, prozora i dezinfekcija rukohvata za uredne zajedničke prostore.
             </p>
-            <a href="pages/kontakt" className=" inline-flex items-center bg-blue-700 text-white font-bold px-2 py-1 rounded-lg 
+            <a href="/kontakt" className=" inline-flex items-center bg-blue-700 text-white font-bold px-2 py-1 rounded-lg 
                                                 hover:bg-blue-500 transition flex items-center mx-auto mt-4 active:scale-105 active:shadow-xl">
                 <IoIosMail size={30} className="text-white mr-2" />
                    Javi nam se
@@ -56,7 +56,7 @@ export default function Usluge() {
             <p>
               Profesionalno čišćenje i održavanje ureda, poslovnih prostora i zajedničkih prostorija. Osiguravamo čist, uredan i zdrav prostor za vas i vaše zaposlenike.
             </p>
-            <a href="pages/kontakt" className="inline-flex items-center bg-blue-700 text-white font-bold px-2 py-1 rounded-lg 
+            <a href="/kontakt" className="inline-flex items-center bg-blue-700 text-white font-bold px-2 py-1 rounded-lg 
             hover:bg-blue-500 transition flex items-center mx-auto mt-4 active:scale-105 active:shadow-xl">
                 <IoIosMail size={30} className="text-white mr-2" />
                    Iznajmi
@@ -73,7 +73,7 @@ export default function Usluge() {
             <p>
               Profesionalno dubinsko čišćenje tapeciranog namještaja i tepiha. Uklanjamo tvrdokorne mrlje i neugodne mirise, vraćajući svježinu prostoru.
             </p>
-            <a href="pages/kontakt" className="inline-flex items-center bg-blue-700 text-white font-bold px-2 py-1 rounded-lg 
+            <a href="/kontakt" className="inline-flex items-center bg-blue-700 text-white font-bold px-2 py-1 rounded-lg 
             hover:bg-blue-500 transition flex items-center mx-auto mt-4 active:scale-105 active:shadow-xl">
                 <IoIosMail size={30} className="text-white mr-2" />
                    Rezerviraj
@@ -90,7 +90,7 @@ export default function Usluge() {
             <p>
               Košnja trave, podrezivanje živice i uklanjanje korova za zdrav i uredan travnjak i okoliš. Usluge dostupne u Zagrebu, Zaprešiću, Samoboru i šire.
             </p>
-            <a href="pages/kontakt" className="inline-flex items-center bg-green-700 text-white font-bold px-2 py-1 rounded-lg 
+            <a href="/kontakt" className="inline-flex items-center bg-green-700 text-white font-bold px-2 py-1 rounded-lg 
             hover:bg-green-500 transition flex items-center mx-auto mt-4 active:scale-105 active:shadow-xl">
                 <IoIosMail size={30} className="text-white mr-2" />
                    Rezerviraj
@@ -107,7 +107,7 @@ export default function Usluge() {
             <p>
               Temeljito dubinsko čišćenje unutrašnjosti i vanjskih dijelova vozila. Brzo i profesionalno, bez kompromisa na kvaliteti.
             </p>
-            <a href="pages/kontakt" className="inline-flex items-center bg-blue-700 text-white font-bold px-2 py-1 rounded-lg 
+            <a href="/kontakt" className="inline-flex items-center bg-blue-700 text-white font-bold px-2 py-1 rounded-lg 
             hover:bg-blue-500 transition flex items-center mx-auto mt-4 active:scale-105 active:shadow-xl">
                 <IoIosMail size={30} className="text-white mr-2" />
                    Rezerviraj
@@ -124,7 +124,7 @@ export default function Usluge() {
             <p>
               Čišćenje i dezinfekcija radijatora te teško dostupnih mjesta. Uklanjamo nečistoće pomoću vruće visokotlaćne pare za zdraviji zrak u vašem domu.
             </p>
-            <a href="pages/kontakt" className="inline-flex items-center bg-blue-700 text-white font-bold px-2 py-1 rounded-lg 
+            <a href="/kontakt" className="inline-flex items-center bg-blue-700 text-white font-bold px-2 py-1 rounded-lg 
             hover:bg-blue-500 transition flex items-center mx-auto mt-4 active:scale-105 active:shadow-xl">
                 <IoIosMail size={30} className="text-white mr-2" />
                    Rezerviraj
@@ -140,7 +140,7 @@ export default function Usluge() {
             <p>
               Profesionalni aparati za čišćenje dostupni za najam. Idealan izbor za one koji žele sami obaviti dubinsko čišćenje sa profesionalnom opremom.
             </p>
-            <a href="pages/najam" className="inline-flex items-center bg-green-700 text-white font-bold px-2 py-1 rounded-lg 
+            <a href="/najam" className="inline-flex items-center bg-green-700 text-white font-bold px-2 py-1 rounded-lg 
             hover:bg-green-500 transition flex items-center mx-auto mt-4 active:scale-105 active:shadow-xl">
                 <IoIosMail size={30} className="text-white mr-2" />
                    Iznajmi

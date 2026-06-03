@@ -64,19 +64,19 @@ export default function NavBar({ bgColor = "bg-transparent", iconColor= "dfsd"}:
                 <Link href="/" onClick={() => setOpen(false)} className={`${pathname === "/" ? "border-b-2 border-yellow-600" : ""}`}>Početna</Link>
             </li>
             <li>
-                <Link href="/pages/usluge" onClick={() => setOpen(false)} className={`${pathname === "/pages/usluge" ? "border-b-2 border-yellow-600" : ""}`}>Usluge</Link>
+                <Link href="/usluge" onClick={() => setOpen(false)} className={`${pathname === "/usluge" ? "border-b-2 border-yellow-600" : ""}`}>Usluge</Link>
             </li>
             <li>
-                <Link href="/pages/kontakt" onClick={() => setOpen(false)} className={`${pathname === "/pages/kontakt" ? "border-b-2 border-yellow-600" : ""}`}>Kontakt</Link>
+                <Link href="/kontakt" onClick={() => setOpen(false)} className={`${pathname === "/kontakt" ? "border-b-2 border-yellow-600" : ""}`}>Kontakt</Link>
             </li>
             <li>
-                <Link href="/pages/najam" onClick={() => setOpen(false)} className={`${pathname === "/pages/najam" ? "border-b-2 border-yellow-600" : ""}`}>Najam</Link>
+                <Link href="/najam" onClick={() => setOpen(false)} className={`${pathname === "/najam" ? "border-b-2 border-yellow-600" : ""}`}>Najam</Link>
             </li>
             <li>
-                <Link href="/pages/galerija" onClick={() => setOpen(false)} className={`${pathname === "/pages/galerija" ? "border-b-2 border-yellow-600" : ""}`}>Galerija</Link>
+                <Link href="/galerija" onClick={() => setOpen(false)} className={`${pathname === "/galerija" ? "border-b-2 border-yellow-600" : ""}`}>Galerija</Link>
             </li>
             <li>
-                <Link href="/pages/onama" onClick={() => setOpen(false)} className={`${pathname === "/pages/onama" ? "border-b-2 border-yellow-600" : ""}`}>O nama</Link>
+                <Link href="/onama" onClick={() => setOpen(false)} className={`${pathname === "/onama" ? "border-b-2 border-yellow-600" : ""}`}>O nama</Link>
             </li>
             </ul>
         </div>
@@ -128,11 +128,11 @@ export default function NavBar({ bgColor = "bg-transparent", iconColor= "dfsd"}:
       <ul className="flex flex-col gap-5 mt-4">
         {[
           { name: "Početna", href: "/" },
-          { name: "Usluge", href: "/pages/usluge" },
-          { name: "Kontakt", href: "/pages/kontakt" },
-          { name: "Najam", href: "/pages/najam" },
-          { name: "Galerija", href: "/pages/galerija" },
-          { name: "O nama", href: "/pages/onama" },
+          { name: "Usluge", href: "/usluge" },
+          { name: "Kontakt", href: "/kontakt" },
+          { name: "Najam", href: "/najam" },
+          { name: "Galerija", href: "/galerija" },
+          { name: "O nama", href: "/onama" },
         ].map((item) => (
           <li key={item.name}>
             <Link

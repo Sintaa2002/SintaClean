@@ -33,7 +33,7 @@ export function RezervacijaCiscenje(){
         <p className="text-lg md:text-xl mb-6 max-w-2xl mx-auto">
           Brzo, pouzdano i kvalitetno čišćenje BEZ plaćanja unaprijed!
         </p>
-        <a href="pages/kontakt" className="bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-600 transition inline-flex items-center
+        <a href="/kontakt" className="bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-600 transition inline-flex items-center
                 active:scale-105 active:shadow-xl">
           <IoIosMail size={28} className="mr-2" />
           Rezerviraj
@@ -65,7 +65,7 @@ export function RezervacijaTrava(){
         <p className="text-lg md:text-xl mb-6 max-w-2xl mx-auto">
           Dogovori svoj termin i neka ti travnjak zablista.
         </p>
-        <a href="pages/kontakt" className="bg-green-700 text-white font-semibold px-6 py-3 rounded-lg hover:bg-green-600 transition inline-flex items-center
+        <a href="/kontakt" className="bg-green-700 text-white font-semibold px-6 py-3 rounded-lg hover:bg-green-600 transition inline-flex items-center
                 active:scale-105 active:shadow-xl">
           <IoIosMail size={28} className="mr-2" />
           Rezerviraj
@@ -107,7 +107,7 @@ export function NajamAparata(){
         <p className="text-lg md:text-xl mb-6 max-w-2xl mx-auto">
           Izaberi što ti treba i baci se na čišćenje.
         </p>
-        <a href="pages/najam" className="border-2 border-yellow-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-yellow-600 transition inline-flex items-center
+        <a href="/najam" className="border-2 border-yellow-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-yellow-600 transition inline-flex items-center
                 active:bg-yellow-600 transition-colors">
                   <IoIosMail size={28} className="mr-2" />
           Iznajmi
@@ -133,7 +133,7 @@ export function UslugeCTA(){
                 </p>
 
                 <a
-                href="/pages/kontakt"
+                href="/kontakt"
                 className="inline-flex items-center gap-2 px-10 py-4 bg-white text-blue-600 rounded-full font-semibold shadow-xl hover:scale-105 transition
                   active:scale-105 active:shadow-xl"
                 >
@@ -154,7 +154,7 @@ export function AboutUsCTA(){
           Javite nam se i dogovorite profesionalnu uslugu već danas.
         </p>
         <a
-          href="/pages/kontakt"
+          href="/kontakt"
           className="inline-block px-10 py-4 bg-white text-blue-600 font-semibold rounded-full shadow-lg hover:scale-105 hover:shadow-xl transition"
         >
           Kontaktirajte nas

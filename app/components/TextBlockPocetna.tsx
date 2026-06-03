@@ -18,7 +18,7 @@ export function TextBlock1() {
           </p>
 
           <div className="md:hidden flex flex-wrap mt-7">
-            <a href="/pages/usluge" className="border border-blue-600 text-blue-700 font-semibold px-6 py-3 rounded-xl hover:bg-blue-600 hover:text-white transition
+            <a href="/usluge" className="border border-blue-600 text-blue-700 font-semibold px-6 py-3 rounded-xl hover:bg-blue-600 hover:text-white transition
             active:bg-blue-600 active:text-white transition-colors">
               Pogledajte naše usluge
             </a>
@@ -35,7 +35,7 @@ export function TextBlock1() {
             <p className="text-center text-sm md:text-base mb-4">
               Usluge dostupne na području Zagreba, Zaprešića, Samobora i šire.
             </p>
-            <a href="/pages/kontakt" className="bg-white text-blue-600 font-semibold px-6 py-2 rounded-xl hover:bg-blue-100 transition">
+            <a href="/kontakt" className="bg-white text-blue-600 font-semibold px-6 py-2 rounded-xl hover:bg-blue-100 transition">
               Provjeri dostupnost
             </a>
           </div>
@@ -76,11 +76,11 @@ export function TextBlock2() {
           </p>
 
           <div className="flex flex-wrap gap-4">
-            <a href="/pages/galerija" className="bg-green-700 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-xl transition
+            <a href="/galerija" className="bg-green-700 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-xl transition
                       active:scale-105 active:shadow-xl">
               Pogledaj galeriju
             </a>
-            <a href="/pages/kontakt" className="border border-green-600 text-green-700 font-semibold px-3 md:px-6 py-3 rounded-xl hover:bg-green-600 hover:text-white 
+            <a href="/kontakt" className="border border-green-600 text-green-700 font-semibold px-3 md:px-6 py-3 rounded-xl hover:bg-green-600 hover:text-white 
                     active:bg-green-600 active:text-white transition-colors">
               Kontaktiraj nas
             </a>

@@ -260,7 +260,7 @@ export default function UslugeCards(){
                 )}
 
                 <div className="group pt-6 flex justify-end">
-                  <a href="/pages/kontakt"
+                  <a href="/kontakt"
                      className="inline-flex items-center gap-2 rounded-full
                                     bg-blue-600 px-5 py-2 text-sm font-semibold text-white
                                     shadow-lg shadow-blue-600/30

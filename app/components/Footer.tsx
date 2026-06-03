@@ -12,11 +12,11 @@ export default function Kontakti() {
           <h3 className="text-xl font-semibold mb-4">Izbornik</h3>
           <ul className="space-y-2">
             <li><Link href="/" className="hover:text-blue-400 transition">Početna</Link></li>
-            <li><Link href="/pages/usluge" className="hover:text-blue-400 transition">Usluge</Link></li>
-            <li><Link href="/pages/kontakt" className="hover:text-blue-400 transition">Kontakt</Link></li>
-            <li><Link href="/pages/najam" className="hover:text-blue-400 transition">Najam</Link></li>
-            <li><Link href="/pages/galerija" className="hover:text-blue-400 transition">Galerija</Link></li>
-            <li><Link href="/pages/onama" className="hover:text-blue-400 transition">O nama</Link></li>
+            <li><Link href="/usluge" className="hover:text-blue-400 transition">Usluge</Link></li>
+            <li><Link href="/kontakt" className="hover:text-blue-400 transition">Kontakt</Link></li>
+            <li><Link href="/najam" className="hover:text-blue-400 transition">Najam</Link></li>
+            <li><Link href="/galerija" className="hover:text-blue-400 transition">Galerija</Link></li>
+            <li><Link href="/onama" className="hover:text-blue-400 transition">O nama</Link></li>
           </ul>
         </div>
 

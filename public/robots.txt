@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.sintaclean.hr
+
+# Sitemaps
+Sitemap: https://www.sintaclean.hr/sitemap.xml

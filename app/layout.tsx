@@ -25,6 +25,16 @@ export const metadata: Metadata = {
     template: '%s | Šinta Clean',
   },
   description: 'Nudimo dubinsko čišćenje tkaninastog namještaja, automobila, madraca. Održavamo stubišta zgrada i zajedničkih prostorija. Održavamo zelene površine, kosimo travu, te režemo živicu.',
+  metadataBase: new URL('https://sintaclean.hr'),
+  icons: {
+    icon: [
+      { url: '/photos/favicon.ico', sizes: 'any' },
+      { url: '/photos/sintaclean-ciscenje-zagreb.png', type: 'image/png', sizes: '512x512' },
+    ],
+    apple: [
+      { url: '/photos/sintaclean-ciscenje-zagreb-apple.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
   keywords: [
     'dubinsko čišćenje Zagreb',
     'dubinsko ciscenje Zaprešić',
@@ -95,7 +105,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/photos/sintaclean-ciscenje-zagreb.png" sizes="any" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}

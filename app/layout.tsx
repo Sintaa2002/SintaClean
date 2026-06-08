@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://sintaclean.hr'),
   icons: {
     icon: [
-      { url: '/photos/favicon.ico', sizes: 'any' },
+      { url: '/photos/favicon.ico', sizes: '32x32' },
       { url: '/photos/sintaclean-ciscenje-zagreb.png', type: 'image/png', sizes: '512x512' },
     ],
     apple: [

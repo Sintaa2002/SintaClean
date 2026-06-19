@@ -9,9 +9,9 @@ import Image from "next/image";
       image: "/photos/najam-aparata-dubinsko-zagreb.webp",
       alt: "Aparat za dubinsko čišćenje za najam u Zagrebu, Zaprešiću i Samoboru",
       prices: [
-        { days: 1, price: 40 },
-        { days: 2, price: 60 },
-        { days: 3, price: 80 },
+        { days: 1, price: 30 },
+        { days: 2, price: 45 },
+        { days: 3, price: 60 },
       ]
     },
         {
@@ -21,9 +21,9 @@ import Image from "next/image";
       image: "/photos/najam-parni-cistac-karcher-zagreb.webp",
       alt: "Aparat za parno čišćenje za najam u Zagrebu, Zaprešiću i Samoboru",
       prices: [
-        { days: 1, price: 30 },
-        { days: 2, price: 45 },
-        { days: 3, price: 60 },
+        { days: 1, price: 25 },
+        { days: 2, price: 35 },
+        { days: 3, price: 50 },
       ],
     },
     {
@@ -70,8 +70,8 @@ import Image from "next/image";
       alt: "",
       prices: [
         { days: 1, price: 10 },
-        { days: 2, price: 20 },
-        { days: 3, price: 25 },
+        { days: 2, price: 15 },
+        { days: 3, price: 20 },
       ],
     }
   ];

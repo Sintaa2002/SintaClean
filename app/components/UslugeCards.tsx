@@ -1,5 +1,3 @@
-"use client";
-import { useState, useEffect } from "react";
 import Image from "next/image";
 import { FaCouch, FaLeaf, FaBroom} from "react-icons/fa";
 import {services} from "@/components/Services";
@@ -27,16 +25,7 @@ function getIcon(name: string) { // Funkcija sada očekuje točan tip
 }
 
 export default function UslugeCards(){
-    const [selectedService, setSelectedService] = useState<Service | null>(null);
-
-    useEffect(() => {
-      document.body.classList.toggle("overflow-hidden", !!selectedService);
-
-      return () => {
-        document.body.classList.remove("overflow-hidden");
-      };
-    }, [selectedService]);
-
+    
     return(
       <>
         <section className="py-20 px-6 md:px-20">
@@ -49,7 +38,6 @@ export default function UslugeCards(){
               {services.map((service) => (
                 <div
                   key={service.title}
-                  onClick={() => setSelectedService(service)}
                   className="cursor-pointer group relative rounded-[28px] bg-white overflow-hidden
                             shadow-[0_20px_40px_-15px_rgba(0,0,0,0.15)]
                             hover:shadow-[0_40px_80px_-20px_rgba(59,130,246,0.35)] active:shadow-[0_40px_80px_-20px_rgba(59,130,246,0.35)]

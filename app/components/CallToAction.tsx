@@ -162,3 +162,22 @@ export function AboutUsCTA(){
       </section>
     );
 }
+
+export function PojedinacneCTA(){
+    return(
+        <section className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white py-20 text-center">
+        <h3 className="text-4xl font-bold mb-4">
+          Trebate ovu uslugu?
+        </h3>
+        <p className="text-lg mb-10 opacity-90">
+           Javite nam se i napravit ćemo ponudu prema vašim potrebama.
+        </p>
+        <a
+          href="/kontakt"
+          className="inline-block px-10 py-4 bg-white text-blue-600 font-semibold rounded-full shadow-lg hover:scale-105 hover:shadow-xl transition"
+        >
+          Kontaktirajte nas
+        </a>
+      </section>
+    );
+}

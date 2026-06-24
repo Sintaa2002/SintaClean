@@ -24,7 +24,7 @@ export const metadata = {
     description:
       "Profesionalne usluge dubinskog čišćenja namještaja i poslovnih prostora u Zagrebu.",
     url: "https://sintaclean.hr",
-    siteName: "ŠINTA CLEAN",
+    siteName: "Šinta Clean",
     type: "website",
   }
 };

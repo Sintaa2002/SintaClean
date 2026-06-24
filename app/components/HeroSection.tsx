@@ -1,4 +1,6 @@
 import Image from 'next/image';
+import { title } from 'process';
+import { AiFillAmazonCircle } from 'react-icons/ai';
 
 export function HeroPocetna() {
   return (
@@ -93,6 +95,63 @@ export function HeroUsluge(){
           </h1>
           <p className="text-lg md:text-xl max-w-2xl">
             Pouzdano čišćenje i održavanje prostora uz kvalitetnu i brzu uslugu.
+          </p>
+          <a
+            href="/kontakt"
+            className="inline-block mt-6 px-8 py-4 bg-blue-500 text-white rounded-full font-semibold hover:scale-105 transition hover:shadow-lg active:shadow-xl  
+                      active:scale-105 active:shadow-xl"
+          >
+            Kontaktiraj nas
+          </a>
+        </div>
+      </section>
+  );
+}
+
+type HeroUslugeProps = {
+  urlImg: string;
+  urlImgMob: string;
+  title: string;
+  titleDesc: string;
+};
+
+export function HeroPojedinacneUsluge({urlImg, urlImgMob, title, titleDesc} : HeroUslugeProps){
+  return(
+      <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
+        {/* Background image */}
+        <Image
+          src={urlImg}
+          alt="Čišćenje Zagreb, Zaprešić i Samobor"
+          fill
+          sizes="100vw"
+          style={{ objectFit: "cover" }}
+          className="hidden md:block object-cover"
+          priority
+          fetchPriority="high"
+        />
+
+        <Image
+          src={urlImgMob}
+          alt="Čišćenje Zagreb, Zaprešić i Samobor"
+          fill
+          style={{ objectFit: "cover" }}
+          className="block md:hidden object-cover"
+          priority
+        />
+
+        {/* Light blur overlay */}
+        <div className="absolute inset-0 bg-black/60"></div>
+
+        {/* Decorative blur shapes 
+        <div className="absolute -top-32 -left-32 w-[420px] h-[420px] bg-blue-200/50 rounded-full blur-3xl" />
+        <div className="absolute top-1/3 -right-32 w-[380px] h-[380px] bg-blue-300/40 rounded-full blur-3xl" />*/}
+
+        <div className="relative z-10 text-center text-white pt-26 max-w-5xl space-y-6">
+          <h1 className="text-3xl md:text-6xl font-bold tracking-tight animate-fadeIn pr-2 pl-2">
+            {title}
+          </h1>
+          <p className="text-lg md:text-xl max-w-2xl mx-auto text-center pr-5 pl-5">
+            {titleDesc}
           </p>
           <a
             href="/kontakt"

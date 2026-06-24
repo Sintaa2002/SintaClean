@@ -53,7 +53,7 @@ export default async function ServicePage({
       <HeroPojedinacneUsluge urlImg={service.heroImg} urlImgMob={service.heroImgMob} title={service.title} titleDesc={service.titleDesc} />
 
     {/* FLOATING TRUST BAR */}
-      <section className="relative -mt-10 z-20">
+      <section className="relative -mt-10 z-10">
 
         <div className="container mx-auto px-6">
           <div className="bg-white/80 backdrop-blur-xl border shadow-xl rounded-2xl py-6 px-8 grid md:grid-cols-3 text-center gap-6">

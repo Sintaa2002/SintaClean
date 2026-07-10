@@ -5,7 +5,6 @@ import ContactInfo from "@/components/ContactInfo";
 import MapEmbed from "@/components/Map";
 import JourneySteps from "@/components/JourneySteps";
 import ContactSideBar from "@/components/ContactSideBar";
-import React from "react";
 import WhatsAppMsg from "@/components/WhatsAppMsg";
 
 export const metadata = {

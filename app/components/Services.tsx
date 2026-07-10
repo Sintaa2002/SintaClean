@@ -34,11 +34,11 @@ export const services: Service[] = [
   },
   {
     usluge: "ciscenje-stubista-zagreb",
-    title: "Održavanje stubišta zgrada Zagreb i okolica",
+    title: "Čišćenje stubišta zgrada Zagreb i okolica",
     titleDesc: "Profesionalno čišćenje i održavanje stubišta zgrada u Zagrebu, Zaprešiću i okolici.",
     subTitle: "Redovito čišćenje za uredna, sigurna i čista stubišta",
     description:
-      "Održavanje stubišta, rukohvata, prozora i zajedničkih prostora uključuje čišćenje svih površina, uklanjanje prašine i mrlja te redovitu dezinfekciju kontaktnih mjesta. Naš tim osigurava uredne, higijenski i sigurne zajedničke prostore prilagođene potrebama stanara i korisnika.",
+      "Čišćenje stubišta, rukohvata, prozora i zajedničkih prostora uključuje čišćenje svih površina, uklanjanje prašine i mrlja te redovitu dezinfekciju kontaktnih mjesta. Naš tim osigurava uredne, higijenski i sigurne zajedničke prostore prilagođene potrebama stanara i korisnika.",
     image: "/photos/ciscenje-stambenog-stubista-zapresic.webp",
     heroImg: "/photos/ciscenje-stambenog-stubista-zagreb.webp",
     heroImgMob: "/photos/ciscenje-stambenog-stubista-zagreb.webp",
@@ -67,7 +67,7 @@ export const services: Service[] = [
   {
     usluge: "kosnja-trave-zapresic",
     title: "Održavanje zelenih površina u Zagrebu i okolici",
-    titleDesc: "Održavanje travnjaka na području Zagreba, zaprešića i okolice",
+    titleDesc: "Košnja travnjaka na području Zagreba, zaprešića i okolice",
     subTitle: "Redovita njega i uređenje travnjaka, vrtova i okućnica",
     description:
       "Redovito održavanje travnjaka i okućnice uključuje košnju trave, orezivanje grmlja i živica, te uklanjanje lišća i otpada s površina. Posebna pažnja posvećuje se njegovanju biljaka, pravovremenom zalijevanju i prihrani tla, kako bi travnjaci i vrtne površine ostali zdravi i uredni tijekom cijele godine. Cjelokupna briga o okućnici osigurava estetski ugodan izgled, urednost i funkcionalnost svih zelenih površina, prilagođeno sezonskim potrebama i klimatskim uvjetima.",

@@ -22,7 +22,7 @@ export async function generateMetadata(
   }
 
   return {
-    title: aparat.title,
+    title: aparat.titleNajam,
     description: aparat.details,
   };
 }

@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://www.sintaclean.hr</loc></url>
-<url><loc>https://www.sintaclean.hr/usluge</loc></url>
-<url><loc>https://www.sintaclean.hr/kontakt</loc></url>
-<url><loc>https://www.sintaclean.hr/najam</loc></url>
-<url><loc>https://www.sintaclean.hr/galerija</loc></url>
-<url><loc>https://www.sintaclean.hr/onama</loc></url>
+<url><loc>https://www.sintaclean.hr</loc><lastmod>2026-07-16T12:57:52.904Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.sintaclean.hr/galerija</loc><lastmod>2026-07-16T12:57:52.905Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.sintaclean.hr/kontakt</loc><lastmod>2026-07-16T12:57:52.905Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.sintaclean.hr/najam</loc><lastmod>2026-07-16T12:57:52.905Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.sintaclean.hr/onama</loc><lastmod>2026-07-16T12:57:52.905Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.sintaclean.hr/usluge</loc><lastmod>2026-07-16T12:57:52.905Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.sintaclean.hr/usluge/dubinsko-ciscenje-namjestaja-zagreb</loc></url>
+<url><loc>https://www.sintaclean.hr/usluge/ciscenje-stubista-zagreb</loc></url>
+<url><loc>https://www.sintaclean.hr/usluge/ciscenje-ureda-zagreb</loc></url>
+<url><loc>https://www.sintaclean.hr/usluge/kosnja-trave-zapresic</loc></url>
+<url><loc>https://www.sintaclean.hr/usluge/dubinsko-automobila-zagreb</loc></url>
+<url><loc>https://www.sintaclean.hr/usluge/ciscenje-radijatora-zagreb</loc></url>
+<url><loc>https://www.sintaclean.hr/najam/dubinsko-ciscenje-aparat</loc></url>
+<url><loc>https://www.sintaclean.hr/najam/karcher-parni-cistac</loc></url>
+<url><loc>https://www.sintaclean.hr/najam/wirbel-samponirka</loc></url>
+<url><loc>https://www.sintaclean.hr/najam/aparat-ciscenje-podova</loc></url>
+<url><loc>https://www.sintaclean.hr/najam/mokro-suhi-usisavac</loc></url>
+<url><loc>https://www.sintaclean.hr/najam/aku-busilica</loc></url>
 </urlset>

@@ -22,7 +22,7 @@ export async function generateMetadata(
   }
 
   return {
-    title: aparat.titleNajam,
+    title: aparat.title,
     description: aparat.details,
   };
 }
@@ -254,7 +254,7 @@ export default async function AparatPage({
                   mb-6
                 "
               >
-                {aparat.titleNajam}
+                {aparat.title}
               </h1>
 
               <p

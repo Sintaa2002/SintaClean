@@ -32,7 +32,7 @@ export function NajamAparati() {
                 {/* CONTENT */}
                 <div className="p-6 space-y-3">
                   <div className="flex items-center gap-3 text-lg">
-                    <div className="text-2xl text-black">{service.title}</div>
+                    <div className="text-2xl text-black">{service.titleNajam}</div>
                   </div>
 
                   <p className="text-gray-600 text-sm leading-relaxed line-clamp-4">

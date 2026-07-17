@@ -11,6 +11,7 @@ export default function ContactForm() {
   });
 
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
 
       useEffect(() => {
         if (submitted) {
@@ -28,6 +29,8 @@ export default function ContactForm() {
 
     const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    setLoading(true);
 
     try {
       const res = await fetch("/api/contact", {
@@ -47,6 +50,8 @@ export default function ContactForm() {
     } catch (error) {
       console.error(error);
       alert("Došlo je do greške. Pokušajte ponovo.");
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -117,9 +122,21 @@ export default function ContactForm() {
         <div className="md:col-span-2">
           <button
             type="submit"
-            className="w-full bg-blue-400 hover:bg-blue-500 text-white font-semibold py-3 rounded transition-colors active:bg-blue-500"
+            disabled={loading}
+            className={`w-full bg-blue-400 hover:bg-blue-500 text-white font-semibold py-3 rounded transition-colors active:bg-blue-500 
+            ${
+              loading
+                ? "bg-gray-400 cursor-not-allowed"
+                : "bg-blue-400 hover:bg-blue-500 active:bg-blue-500 text-white"
+            }`}
           >
-            Pošalji
+            {loading && (
+              <div className="flex items-center justify-center">
+                <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin" />
+              </div>
+            )}
+
+            {loading ? "Šaljem..." : "Pošalji"}
           </button>
 
       {submitted && (

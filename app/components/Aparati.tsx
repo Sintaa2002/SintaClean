@@ -14,7 +14,11 @@
         { days: 1, price: 30 },
         { days: 2, price: 45 },
         { days: 3, price: 60 },
-      ]
+      ],
+      dodatneOpcije: [
+        { opcija: "sredstvo za čišćenje", price: 5 },
+        { opcija: "dostava na kućnu adresu", price: 10 }
+      ],
     },
     {
       id: 2,
@@ -29,6 +33,9 @@
         { days: 1, price: 25 },
         { days: 2, price: 35 },
         { days: 3, price: 50 },
+      ],
+      dodatneOpcije: [
+        { opcija: "dostava na kućnu adresu", price: 10 }
       ],
     },
     {
@@ -45,6 +52,8 @@
         { days: 2, price: 75 },
         { days: 3, price: 120 },
       ],
+      dodatneOpcije: [
+      ],
     },
     {
       id: 4,
@@ -59,6 +68,8 @@
         { days: 1, price: 85 },
         { days: 2, price: 140 },
         { days: 3, price: 180 },
+      ],
+      dodatneOpcije: [
       ],
     },
     {
@@ -75,6 +86,8 @@
         { days: 2, price: 55 },
         { days: 3, price: 75 },
       ],
+      dodatneOpcije: [
+      ],
     },
     {
       id: 6,
@@ -89,6 +102,8 @@
         { days: 1, price: 10 },
         { days: 2, price: 15 },
         { days: 3, price: 20 },
+      ],
+      dodatneOpcije: [
       ],
     }
   ];

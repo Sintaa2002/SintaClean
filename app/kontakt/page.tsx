@@ -23,7 +23,18 @@ export const metadata = {
   }
 };
 
-export default function Kontakt() {
+type KontaktProps = {
+  searchParams: Promise<{
+    tekst?: string;
+  }>;
+};
+
+export default async function Kontakt({ searchParams }: KontaktProps) {
+
+ const params = await searchParams;
+
+  const formaTekst = params.tekst || "";
+
   return (
     <main className="min-h-screen bg-gray-50 text-gray-800">
 
@@ -45,7 +56,7 @@ export default function Kontakt() {
 
           <div className="flex flex-col w-full md:w-2/3 gap-3 md:gap-20">
             <ContactInfo />
-            <ContactForm />
+            <ContactForm formaTekst={formaTekst} />
             <MapEmbed />
           </div>
 

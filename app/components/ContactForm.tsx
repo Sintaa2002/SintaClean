@@ -1,17 +1,34 @@
 "use client";
 import { useState, useEffect } from "react";
 
-export default function ContactForm() {
+
+  interface ContactForm {
+    formaTekst?: string
+}
+
+  export default function ContactForm({
+    formaTekst
+  }: ContactForm) {
+
   const [formData, setFormData] = useState({
     fullName: "",
     phone: "",
     email: "",
-    message: "",
+    message: formaTekst,
     date: "",
   });
 
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+
+      useEffect(() => {
+          if (formaTekst) {
+            setFormData((prev) => ({
+              ...prev,
+              message: formaTekst,
+            }));
+          }
+        }, [formaTekst]);
 
       useEffect(() => {
         if (submitted) {

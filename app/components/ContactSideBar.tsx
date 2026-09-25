@@ -41,7 +41,7 @@ export default function ContactSideBar() {
             </div>
             <div>
               <p className="text-sm text-gray-500">Email</p>
-              <p className="font-medium">sintic.usluge@gmail.com</p>
+              <p className="font-medium">info@sintaclean.hr</p>
             </div>
           </a>
 

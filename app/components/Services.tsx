@@ -18,7 +18,7 @@ type Service = {
 export const services: Service[] = [
   {
     usluge: "dubinsko-ciscenje-namjestaja-zagreb",
-    title: "Dubinsko čišćenje namještaja, tepiha, madraca...",
+    title: "Dubinsko čišćenje kauča i namještaja",
     titleDesc: "Profesionalno čišćenje svih tkaninastih površina u Zagrebu, Zaprešiću, Samoboru i okolici",
     subTitle: "Profesionalno uklanjanje prljavštine, mrlja i neugodnih mirisa",
     description:
@@ -34,7 +34,7 @@ export const services: Service[] = [
   },
   {
     usluge: "ciscenje-stubista-zagreb",
-    title: "Čišćenje stubišta zgrada Zagreb i okolica",
+    title: "Čišćenje stubišta zgrada Zagreb, Samobor i okolica",
     titleDesc: "Profesionalno čišćenje i održavanje stubišta zgrada u Zagrebu, Zaprešiću i okolici.",
     subTitle: "Redovito čišćenje za uredna, sigurna i čista stubišta",
     description:

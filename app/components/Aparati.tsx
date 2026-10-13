@@ -53,6 +53,7 @@
         { days: 3, price: 120 },
       ],
       dodatneOpcije: [
+        { opcija: "dostava na kućnu adresu", price: 20 }
       ],
     },
     {
@@ -70,6 +71,7 @@
         { days: 3, price: 180 },
       ],
       dodatneOpcije: [
+        { opcija: "dostava na kućnu adresu", price: 20 }
       ],
     },
     {
@@ -87,6 +89,7 @@
         { days: 3, price: 75 },
       ],
       dodatneOpcije: [
+        { opcija: "dostava na kućnu adresu", price: 10 }
       ],
     },
     {

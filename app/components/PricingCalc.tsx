@@ -97,6 +97,9 @@ Dodajte svoj tekst ovdje:`;
 
               <div className="text-2xl md:text-3xl font-black text-blue-600">
                 {item.price}€
+                <p className="text-xs font-normal text-gray-500 mt-1">
+                  Cijena na 10.09.2026. {item.price}€
+                </p>
               </div>
             </div>
           );
@@ -138,6 +141,9 @@ Dodajte svoj tekst ovdje:`;
 
                   <span className="font-bold text-gray-900">
                     +{item.price}€
+                    <p className="text-xs font-normal text-gray-500 mt-1">
+                      Cijena na 10.09.2026. {item.price}€
+                    </p>
                   </span>
                 </label>
               );

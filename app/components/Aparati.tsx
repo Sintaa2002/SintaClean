@@ -125,7 +125,6 @@
         { days: 3, price: 60 },
       ],
       dodatneOpcije: [
-        { opcija: "sredstvo za čišćenje(0.5L -> 5/6L) besplatno", price: 0 },
         { opcija: "dostava na kućnu adresu", price: 10 }
       ],
     },

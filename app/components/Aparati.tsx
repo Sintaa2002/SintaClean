@@ -40,6 +40,24 @@
     },
     {
       id: 3,
+      najam: "silent-kompresor",
+      titleNajam: "Super silent kompresor",
+      title: "Najam kompresora za čišćenje i ispuhavanje Zagreb",
+      details: "za ispuhavanje radijatora, garaže, pneumatske poslove i ostalo. 8 bara, 1100w i 24L spremnik. Scheppach HC25si 24L super tihi kompresor ",
+      detailsNajam: "Kompaktan i snažan kompresor namijenjen za različite poslove u radionici, garaži i kućanstvu. Zahvaljujući tehnologiji tihog rada, omogućuje ugodnije korištenje uz znatno manje buke. 1100 W snaga motora, spremnik zraka od 24 L, usisni kapacitet 230 L/min, maksimalni radni tlak 8 bara",
+      image: "/photos/najam-kompresora-zagreb.webp",
+      alt: "Aparat za dubinsko čišćenje za najam u Zagrebu, Zaprešiću i Samoboru",
+      prices: [
+        { days: 1, price: 30 },
+        { days: 2, price: 45 },
+        { days: 3, price: 60 },
+      ],
+      dodatneOpcije: [
+        { opcija: "dostava na kućnu adresu", price: 10 }
+      ],
+    },
+    {
+      id: 4,
       najam: "wirbel-samponirka",
       titleNajam: "Šamponirka - Wirbel C43",
       title: "Najam šamponirke za pranje podova Zagreb",
@@ -57,7 +75,7 @@
       ],
     },
     {
-      id: 4,
+      id: 5,
       najam: "aparat-ciscenje-podova",
       titleNajam: "Čistač podova - CleanFix Ra 431e",
       title: "Najam čistača podova Zagreb",
@@ -75,7 +93,7 @@
       ],
     },
     {
-      id: 5,
+      id: 6,
       najam: "mokro-suhi-usisavac",
       titleNajam: "Mokro/suhi usisavač",
       title: "Najam mokro suhog usisavača Zagreb",
@@ -93,7 +111,26 @@
       ],
     },
     {
-      id: 6,
+      id: 7,
+      najam: "motorna-flakserica",
+      titleNajam: "Motorna flakserica",
+      title: "Najam flakserice Zagreb i okolica",
+      details: "AL-KO motorna flaskerica snage 1,9kw = 2,6KS, 9000 okretaja/min, motor: 2-taktni, 1 cilindar",
+      detailsNajam: "Snažna benzinska flakserica namijenjena za učinkovitu košnju trave na livadama i padinama. Opremljena 2-taktnim motorom snage 1900 W, jačine 2,6KS, omogućuje fleksibilan rad uz flaks ili metalni nož. Radna širina košnje iznosi 41 cm s niti i 25 cm s nožem, a ergonomska ručka i pojas za nošenje omogućuju udobnije rukovanje.",
+      image: "/photos/najam-flakserica-kosilica-zagreb-zapresicc.webp",
+      alt: "Aparat za dubinsko čišćenje za najam u Zagrebu, Zaprešiću i Samoboru",
+      prices: [
+        { days: 1, price: 35 },
+        { days: 2, price: 45 },
+        { days: 3, price: 60 },
+      ],
+      dodatneOpcije: [
+        { opcija: "sredstvo za čišćenje(0.5L -> 5/6L) besplatno", price: 0 },
+        { opcija: "dostava na kućnu adresu", price: 10 }
+      ],
+    },
+    {
+      id: 8,
       najam: "aku-busilica",
       titleNajam: "Aku bušilica",
       title: "Najam aku bušilice Zagreb",

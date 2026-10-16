@@ -18,9 +18,11 @@ module.exports = {
       { loc: '/usluge/ciscenje-radijatora-zagreb' },
       { loc: '/najam/dubinsko-ciscenje-aparat' },
       { loc: '/najam/karcher-parni-cistac' },
+      { loc: '/najam/silent-kompresor' },
       { loc: '/najam/wirbel-samponirka' },
       { loc: '/najam/aparat-ciscenje-podova' },
       { loc: '/najam/mokro-suhi-usisavac' },
+      { loc: '/najam/motorna-flakserica' },
       { loc: '/najam/aku-busilica' }
     ]
   }
